@@ -7,7 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<body>
+<body >
   <app-root></app-root>
+  <script src="../node_modules/bootstrap/dist/js/ripples.js"></script>
+  <script>
+    $('body').ripples({
+	resolution: 512,
+	dropRadius: 20,
+	perturbance: 0.04,
+});
+  </script>
 </body>
 </html>

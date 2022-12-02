@@ -1,0 +1,121 @@
+
+
+
+.navbar{
+    background-color: rgba(0, 255, 255, 0); 
+    float: right;
+}
+.row{
+    margin: 0;
+}
+
+/* .row,.col,.col-2,.col-3{
+    border: 1px solid black;
+} */
+.padx-200{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bl{
+    border-left: .8rem solid white;
+    border-radius: 0px;
+    padding-left: 2rem;
+}
+
+.hi,.nm{
+    font-size: 9rem;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #414141;
+    padding-bottom: 0;
+    margin-bottom: -20px;
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    display: inline-block;
+}
+
+.ini{
+    font-size: 9rem;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: #414141;
+    margin: 0px;
+}
+
+.sufi{
+    font-size: 4rem;
+    font-family:serif;
+    font-weight: 50;
+    color: #ffffff;
+    margin: 0px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.nm:hover,.ini:hover{
+    animation: effect 1s;
+    cursor: default;
+    color: #fff;
+}
+
+.na{
+    color: white ;
+    font-size: 9rem;
+    font-family: Helvetica;
+    font-weight: 700;
+
+    padding-bottom: 0;
+    margin-bottom: -20px;
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    display: inline-block;
+}
+
+.na:hover{
+    color: #414141;
+    animation: effect 1s;
+    cursor: default;
+}
+
+.hi:hover {
+    animation: effect  1s;
+    color: white;
+    cursor: default;
+}
+
+
+
+@keyframes effect {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  } 
